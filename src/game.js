@@ -72,11 +72,11 @@ class Game extends React.Component {
               onClick={(i) => this.handleClick(i)}
             />
           </div>
+        </div>
           <div className="game-info">
-            <div>{status}</div>
+            <h2>{status}</h2>
             <ol>{moves}</ol>
           </div>
-        </div>
 
         <After />
       </div>
